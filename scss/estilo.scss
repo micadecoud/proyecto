@@ -1,0 +1,43 @@
+@import "media";
+$color-rosafuerte: rgb(186, 15, 118);
+$color-rosaclaro: #ebabd1;
+mt-5 {
+    margin-top: 6rem
+}
+
+.btn-primary {
+    background-color: $color-rosafuerte;
+    color: azure;
+    border-color: $color-rosaclaro;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: $color-rosafuerte;
+    border-color: $color-rosaclaro;
+}
+
+.bg-lav {
+    background-color: rgb(247, 220, 236);
+}
+
+footer {
+    background-color: rgb(120, 79, 104);
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    margin: 0%;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.accordion-button {
+    background-color: rgb(120, 79, 104);
+    color: white;
+}
