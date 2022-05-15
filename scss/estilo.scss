@@ -12,9 +12,7 @@ mt-5 {
 }
 
 .btn-primary:hover {
-    background-color: white;
-    color: $color-rosafuerte;
-    border-color: $color-rosaclaro;
+    @include btn($hover);
 }
 
 .bg-lav {
@@ -40,4 +38,11 @@ header {
 .accordion-button {
     background-color: rgb(120, 79, 104);
     color: white;
+}
+
+//MIXIN 
+@mixin btn($hover) {
+    background-color: $color-rosafuerte;
+    color: azure;
+    border-color: $color-rosaclaro;
 }
