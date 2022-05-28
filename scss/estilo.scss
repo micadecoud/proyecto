@@ -40,6 +40,19 @@ header {
     color: white;
 }
 
+.card-text {
+    font-weight: 300;
+    color: black;
+}
+
+.gallery-container {
+    max-width: 200rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
 //MIXIN 
 @mixin btn($hover) {
     background-color: $color-rosafuerte;
