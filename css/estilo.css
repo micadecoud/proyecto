@@ -1,56 +1,119 @@
-        mt-5 {
-            margin-top: 6rem
-        }
-        
-        .container-fluid {
-            width: 100%;
-            display: flex;
-        }
-        
-        .btn-primary {
-            background-color: rgb(186, 15, 118);
-            color: azure;
-            border-color: rgb(235, 171, 209);
-        }
-        
-        .btn-primary:hover {
-            background-color: white;
-            color: rgb(186, 15, 118);
-            border-color: rgb(235, 171, 209);
-        }
-        
-        .bg-lav {
-            background-color: rgb(247, 220, 236);
-        }
-        
-        footer {
-            position: absolute;
-            width: 100%;
-            padding: 3%;
-            background-color: rgb(120, 79, 104);
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-        
-        .staff {
-            bottom: 0;
-        }
-        
-        .bi {
-            color: antiquewhite;
-        }
-        
-        .header {
-            margin: 0%;
-            padding: 2rem;
-            font-size: 2rem;
-            font-weight: 300;
-            font-style: italic;
-            text-align: center;
-        }
-        
-        .accordion-button {
-            background-color: rgb(120, 79, 104);
-            color: white;
-        }
+                @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                /* header */
+                
+                header {
+                    margin: 0%;
+                    padding: 3rem;
+                    font-size: 8rem;
+                    font-weight: 300;
+                    font-style: italic;
+                    text-align: center;
+                }
+                /* body */
+                
+                body {
+                    font-family: 'Manrope', sans-serif;
+                }
+                
+                .carousel-caption {
+                    box-sizing: border-box;
+                    font-size: 1rem;
+                    color: black;
+                    font-family: 'Manrope', sans-ser;
+                    background-color: #eff0eb;
+                }
+                
+                mt-5 {
+                    margin-top: 6rem
+                }
+                
+                .container-fluid {
+                    width: 100%;
+                    display: flex;
+                }
+                
+                .btn-primary {
+                    background-color: rgb(186, 15, 118);
+                    color: azure;
+                    border-color: rgb(235, 171, 209);
+                }
+                
+                .btn-primary:hover {
+                    background-color: white;
+                    color: rgb(186, 15, 118);
+                    border-color: rgb(235, 171, 209);
+                }
+                
+                .bg-lav {
+                    background-color: rgb(247, 220, 236);
+                }
+                
+                .staff {
+                    bottom: 0;
+                }
+                
+                .bi {
+                    color: antiquewhite;
+                }
+                
+                .accordion-button {
+                    background-color: rgb(120, 79, 104);
+                    color: white;
+                }
+                /*consultorios*/
+                
+                .centros {
+                    display: block;
+                }
+                
+                .gallery-container {
+                    max-width: 1200px;
+                    width: 100%;
+                    margin: auto;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(2, 1fr);
+                    grid-template-areas: "pic1 pic2" "pic3 pic4";
+                }
+                
+                .consultorios-container {
+                    margin: 0;
+                    width: 100%;
+                    font-size: 1.5rem;
+                    padding: 3rem;
+                }
+                
+                .sucursales {
+                    background-color: rgb(238, 191, 214);
+                    width: 30%;
+                    margin: auto;
+                }
+                /*formulario*/
+                
+                .form_1 {
+                    margin: auto;
+                    width: 100%;
+                    padding: 3rem;
+                }
+                
+                .form_2 {
+                    margin: auto;
+                    width: 100%;
+                    padding: 3rem;
+                }
+                /*footer*/
+                
+                footer {
+                    position: absolute;
+                    width: 100%;
+                    padding: 3%;
+                    background-color: rgb(120, 79, 104);
+                    color: white;
+                    text-align: center;
+                    margin: 0;
+                }
